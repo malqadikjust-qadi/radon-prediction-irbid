@@ -1,0 +1,92 @@
+QUICK START FOR WINDOWS
+=======================
+
+⏱️ 5 MINUTES TO GET STARTED
+
+
+STEP 1: Install Python
+──────────────────────
+1. Go to: https://www.python.org/downloads/
+2. Download Python 3.11
+3. Run installer
+4. ☑ Check "Add Python to PATH"
+5. Click "Install Now"
+
+
+STEP 2: Download Repository
+────────────────────────────
+1. Go to: https://github.com/malqadikjust-qadi/radon-prediction-irbid
+2. Click <> Code (green button)
+3. Click "Download ZIP"
+4. Extract to folder (e.g., Desktop\radon-prediction)
+
+
+STEP 3: Open Command Prompt Here
+─────────────────────────────────
+1. Open your radon-prediction folder
+2. Click address bar and type: cmd
+3. Press Enter
+4. Command Prompt opens IN your folder
+
+
+STEP 4: Install Packages
+────────────────────────
+In Command Prompt, type:
+
+pip install -r requirements.txt
+
+Press Enter and wait (2-5 minutes)
+
+
+STEP 5: Run Analysis
+────────────────────
+In Command Prompt, type:
+
+python 5_master_execution.py
+
+Press Enter and wait (5-15 minutes)
+
+
+STEP 6: View Results
+────────────────────
+Look for new files in your folder:
+
+HTML Maps (open in browser):
+  ✓ heatmap_radon_measurements.html
+  ✓ prediction_map_irbid.html
+  ✓ region_comparison_map.html
+  ✓ geological_analysis_map.html
+
+PNG Charts:
+  ✓ correlation_analysis.png
+  ✓ rock_soil_analysis.png
+  ✓ regional_analysis.png
+  ✓ ... and more
+
+Data:
+  ✓ radon_data_cleaned.csv
+  ✓ model_comparison_results.csv
+
+
+DONE! 🎉
+
+
+═════════════════════════════════════════
+
+TROUBLESHOOTING:
+
+"python is not recognized"
+→ Restart computer after Python install
+
+"requirements.txt not found"
+→ Make sure you're in the correct folder
+
+"ModuleNotFoundError"
+→ pip install pandas numpy matplotlib seaborn scikit-learn scipy folium
+
+Takes too long?
+→ Normal! It takes 5-15 minutes, depending on your PC
+
+═════════════════════════════════════════
+
+For detailed help, see: WINDOWS_GUIDE.txt
